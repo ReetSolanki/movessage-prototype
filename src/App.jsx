@@ -5,7 +5,7 @@ import Chatbot from './chatbot';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/movessage-prototype/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/chatbot" element={<Chatbot />} />
