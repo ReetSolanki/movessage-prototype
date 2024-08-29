@@ -43,7 +43,7 @@ const Home = () => {
         alert(`Wallet Connected: ${accounts[0]}`);
 
         // Redirect to a new page
-        window.location.href = '/chatbot'; // Adjust the path based on your routing setup
+        window.location.href = '/movessage-prototype/chatbot'; // Adjust the path based on your routing setup
       } catch (error) {
         console.error('User rejected the request');
         alert('Wallet connection failed');
